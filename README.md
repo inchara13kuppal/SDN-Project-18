@@ -55,6 +55,7 @@ Navigate to the POX directory and run the custom blocker module with debug loggi
 `./pox.py log.level --DEBUG ext.pox_blocker`
 
 **Controller Connection Status:**
+
 <img width="607" height="403" alt="sdn2" src="https://github.com/user-attachments/assets/fa01c24a-0dd6-4ca7-b346-351649cf71e5" />
 
 
@@ -63,4 +64,5 @@ Verify that the switch has received the drop rule from the controller after the 
 `mininet> dpctl dump-flows`
 
 **Traffic Block and Flow Table Verification:**
+
 <img width="639" height="245" alt="Screenshot 2026-04-08 170126" src="https://github.com/user-attachments/assets/84a01885-51c3-4058-910a-adabdaecd9c2" />
