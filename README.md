@@ -48,6 +48,7 @@ Before triggering the dynamic block, a `pingall` test was executed to verify tha
 
 <img width="613" height="569" alt="sdn1" src="https://github.com/user-attachments/assets/9c8c3d12-ce93-4846-86e7-e62e01e2d6e3" />
 
+
 1. **Start the POX Controller:**
 Navigate to the POX directory and run the custom blocker module with debug logging enabled to monitor suspicious activity.
 `cd ~/pox`
@@ -55,6 +56,7 @@ Navigate to the POX directory and run the custom blocker module with debug loggi
 
 **Controller Connection Status:**
 <img width="607" height="403" alt="sdn2" src="https://github.com/user-attachments/assets/fa01c24a-0dd6-4ca7-b346-351649cf71e5" />
+
 
 ### 2. Inspecting the Flow Tables
 Verify that the switch has received the drop rule from the controller after the threshold is breached.
